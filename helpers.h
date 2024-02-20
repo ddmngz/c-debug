@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdarg.h>
 #define PRINTBYTES_HEX 1
-#define PRINTBYTES_BIN 2
-#define PRINTBYTES_ASCII 4
+#define PRINTBYTES_BIN 0
+#define PRINTBYTES_ASCII 2
 
 // this is from stackoverflow https://stackoverflow.com/questions/111928/is-there-a-printf-converter-to-print-in-binary-format
 #define BYTE_TO_BINARY_PATTERN "%c%c%c%c%c%c%c%c "
